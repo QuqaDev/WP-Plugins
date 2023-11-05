@@ -1,0 +1,169 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    width: 600px;
+
+    flex-shrink: 0;
+    margin: auto
+;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}   
+
+ol, ul {
+    list-style: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    Width: 600px;
+    
+
+}
+
+.logo{
+    Width: 600px;
+    Height: 80px; 
+
+}
+.logo-image{
+    width: 50px;
+    margin-top: 19px;
+    margin-left: 275px;
+}
+
+h1{
+    width: 552px;
+    height: 48px;
+    margin-top: 20px;
+    margin-left: 24px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 12px;
+}
+
+
+.item-card1{
+    display: flex;
+    width: 552px;
+    height: 436px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-shrink: 0;
+    margin-bottom: 24px;
+}
+.item-card2{
+        display: flex;
+        width: 552px;
+        height: 436px;
+        justify-content: center;
+        align-items: flex-start;
+        flex-shrink: 0;
+}
+.card-name{
+    color: #333;
+    display: flex;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: -50px;
+    margin-left: 8px;
+}
+
+
+.image-card{
+    width: 260px;
+}
+
+.price{
+    color: #489DFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 16px;
+    margin-left: 8px;
+}
+
+.button{
+    background-color: #489DFF;
+    text-decoration: none;
+    color: #fff;
+    display: inline-flex;
+    height: 48px;
+    padding: 16px 50px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    font-weight: 800;
+    border-radius: 7px;
+}
+.footer{
+    padding: 24px;
+    text-align: center;
+    color: #525F7F;
+    
+}
+.mail-link{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: none;
+    color: #489DFF;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+
+}
+.footer-copyRight{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.contact-information{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 15px 0;
+}
+
+.webIcons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    height: 18px;
+    margin-bottom: 50px;
+}
+
+hr{
+    width: 568px;
+    height: 1px;
+    color: #E7E7F0;
+}
+
+.hr-credit{
+    width: 600px;
+    color: #E7E7F0;
+}
+
+.credits{
+    padding: 24px;
+    text-align: center;
+    color: #525F7F;
+    text-decoration: none;
+}
